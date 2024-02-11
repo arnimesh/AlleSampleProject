@@ -43,16 +43,7 @@ class ImagePicsAdapter(private val imageList: List<ImagePics>, private val conte
     override fun onBindViewHolder(holder: FoodViewHolder, position: Int)
     {
         val currImage=imageList[position]
-
-        Glide.with(context)
-            .load(currImage.imagePics)
-            .apply(
-                RequestOptions()
-                    .placeholder(R.drawable.one) // Placeholder image
-                    .error(R.drawable.one) // Error image in case of loading failure
-            )
-            .into(holder.ImagePicView)
-
+        holder.ImagePicView.setImageURI(currImage.imagePics)
     }
 
 }
