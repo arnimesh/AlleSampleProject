@@ -17,7 +17,7 @@ import com.example.allesampleproject.interfaces.OnSnapPositionChangeListener
 import com.example.allesampleproject.adapters.ImagePicsAdapter
 import com.example.allesampleproject.data.ImagePics
 import com.example.allesampleproject.utils.ScaleLayoutManager
-import com.example.allesampleproject.utils.SnapOnScrollListener
+import com.example.allesampleproject.listeners.SnapOnScrollListener
 import com.example.allesampleproject.utils.attachSnapHelperWithListener
 
 

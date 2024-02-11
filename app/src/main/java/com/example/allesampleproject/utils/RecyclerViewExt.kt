@@ -3,6 +3,7 @@ package com.example.allesampleproject.utils
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
 import com.example.allesampleproject.interfaces.OnSnapPositionChangeListener
+import com.example.allesampleproject.listeners.SnapOnScrollListener
 
 fun RecyclerView.attachSnapHelperWithListener(
     snapHelper: SnapHelper,

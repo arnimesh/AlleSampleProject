@@ -1,9 +1,10 @@
-package com.example.allesampleproject.utils
+package com.example.allesampleproject.listeners
 
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
 import com.example.allesampleproject.interfaces.OnSnapPositionChangeListener
+import com.example.allesampleproject.utils.getSnapPosition
 
 class SnapOnScrollListener(
     private val snapHelper: SnapHelper,
