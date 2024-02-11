@@ -1,4 +1,4 @@
-package com.example.allesampleproject
+package com.example.allesampleproject.utils
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper

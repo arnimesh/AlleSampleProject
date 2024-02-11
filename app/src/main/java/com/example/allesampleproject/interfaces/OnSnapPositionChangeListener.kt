@@ -1,4 +1,4 @@
-package com.example.alle2
+package com.example.allesampleproject.interfaces
 
 
 interface OnSnapPositionChangeListener {

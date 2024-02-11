@@ -1,4 +1,4 @@
-package com.example.allesampleproject
+package com.example.allesampleproject.data
 
 import android.net.Uri
 

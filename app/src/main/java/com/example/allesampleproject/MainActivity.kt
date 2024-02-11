@@ -1,7 +1,6 @@
 package com.example.allesampleproject
 
 import android.content.ContentResolver
-import android.content.Context
 import android.content.Intent
 import android.content.res.Resources
 import android.net.Uri
@@ -14,9 +13,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
-import com.example.alle2.OnSnapPositionChangeListener
+import com.example.allesampleproject.interfaces.OnSnapPositionChangeListener
+import com.example.allesampleproject.adapters.ImagePicsAdapter
+import com.example.allesampleproject.data.ImagePics
+import com.example.allesampleproject.utils.ScaleLayoutManager
+import com.example.allesampleproject.utils.SnapOnScrollListener
+import com.example.allesampleproject.utils.attachSnapHelperWithListener
 
 
 class MainActivity : AppCompatActivity(), OnSnapPositionChangeListener {

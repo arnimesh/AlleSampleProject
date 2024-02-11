@@ -1,4 +1,4 @@
-package com.example.allesampleproject
+package com.example.allesampleproject.utils
 
 import android.content.Context
 import androidx.recyclerview.widget.LinearLayoutManager

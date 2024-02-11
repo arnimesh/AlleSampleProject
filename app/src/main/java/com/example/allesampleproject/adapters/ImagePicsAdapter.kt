@@ -1,4 +1,4 @@
-package com.example.allesampleproject
+package com.example.allesampleproject.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
+import com.example.allesampleproject.data.ImagePics
+import com.example.allesampleproject.R
 
 class ImagePicsAdapter(private val imageList: List<ImagePics>, private val context: Context) : RecyclerView.Adapter<ImagePicsAdapter.FoodViewHolder>(){
 
